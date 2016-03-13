@@ -3,25 +3,22 @@ layout: documentation-single
 categories:
 - documentation
 - getting-started
-title: Getting Started
-excerpt: Everything you need to start playing with the Ticketmaster APIs
-keywords: API, register for a key, live events core datasets, URI Format, URI Examples
 ---
 
 
-# GETTING STARTED
+#GETTING STARTED
 
 
 {: .lead .double-margin}
 Everything you need to start playing with the Ticketmaster APIs.
 
 {: #introduction}
-## Introduction
+##Introduction
 
 
 {: .body}
 Welcome to the Ticketmaster API! To get you started, we'll go over the **live events core datasets** we’ve made
-available to you. Once you [register for a key](https://live-livenation.devportal.apigee.com/user/login), you will
+available to you. Once you [register for a key](https://dev-livenation.devportal.apigee.com/user/login), you will
 be able to access the following datasets:
 
 {: .double-margin}
@@ -35,7 +32,7 @@ be able to access the following datasets:
 |Cart               |A cart can hold any transactable item, like tickets, merchandize, parking, etc.                         |
 
 
-These datasets are distributed across five distinct APIs: Discovery API, Commerce API, Accounts API, Orders API and Publish API.
+These datasets are distributed across four distinct APIs: Discovery API, Commerce API, Accounts API and Orders API.
 
 {: .body .double-margin-bottom}
 This overview covers the core concepts that you need to know before you could 
@@ -165,7 +162,7 @@ When you do go over your quota, you will get an HTTP status code 429 indicating 
 The API also supports [Cross-Origin Resource Sharing (CORS)](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing){:target="_blank"} which allows cross-domain requests to be made by JavaScript on a web page. Such "cross-domain" requests would otherwise be forbidden by web browsers, per the [same origin security policy](http://en.wikipedia.org/wiki/Same_origin_policy){:target="_blank"}. CORS is supported by all modern web browsers, and a full list of browser support can be found [here](http://caniuse.com/cors){:target="_blank"}.
 
 {: .double-margin #available-resources .no-mobile}
-## Available Resources
+##Available Resources
 
 <div class="table-wrapper no-mobile">
 <table class="article double-margin">
@@ -186,7 +183,7 @@ The API also supports [Cross-Origin Resource Sharing (CORS)](http://en.wikipedia
     <tr>
       <td style="text-align: center" rowspan="9">
         <a href="/products-and-docs/apis/discovery/">
-          <img src="/assets/img/getting-started/ic-search-big.svg" alt="Discovery API">
+          <img src="/assets/img/getting-started/ic-search-big.svg" alt="search">
         </a>
       <h4 style="margin-top:11px;">Discovery API</h4>
       </td>
@@ -254,8 +251,8 @@ The API also supports [Cross-Origin Resource Sharing (CORS)](http://en.wikipedia
     </tr>
     <tr>
       <td style="text-align: center">
-        <a href="/products-and-docs/apis/commerce/">deals
-          <img src="/assets/img/getting-started/ic-commerce-api.svg" alt="Commerce API">
+        <a href="/products-and-docs/apis/commerce/">
+          <img src="/assets/img/getting-started/ic-commerce-api.svg" alt="Icon1">
         </a>
         <h4 style="margin-top:11px;text-">Commerce API</h4>
         </td>
@@ -269,7 +266,7 @@ The API also supports [Cross-Origin Resource Sharing (CORS)](http://en.wikipedia
     <tr>
       <td style="text-align: center" rowspan="14">
         <a href="/products-and-docs/apis/partner/">
-          <img src="/assets/img/getting-started/ic-user.svg" alt="Partner API">
+          <img src="/assets/img/getting-started/ic-user.svg" alt="Icon1">
         </a>
         <h4 style="margin-top:11px;text-">Partner API</h4>
       </td>
@@ -374,7 +371,7 @@ The API also supports [Cross-Origin Resource Sharing (CORS)](http://en.wikipedia
     <tr>
       <td style="text-align: center" rowspan="2">
         <a href="/products-and-docs/apis/deals-api/">
-          <img src="/assets/img/getting-started/ic-cart.svg" alt="Deals API">
+          <img src="/assets/img/getting-started/ic-cart.svg" alt="Icon1">
         </a>
         <h4 style="margin-top:11px;text-">Deals API</h4>
       </td>
@@ -386,20 +383,6 @@ The API also supports [Cross-Origin Resource Sharing (CORS)](http://en.wikipedia
     </tr>
     <tr>
       <td style="text-align: left"><a href="/products-and-docs/apis/deals-api/#search-events-specified-deals">Search for Events with a Specified Deal</a></td>
-      <td style="text-align: center;border-right: 0px;"></td>
-      <td style="text-align: center;border-right: 0px; border-left: 0px;" class="checked-td"></td>
-      <td style="text-align: center;border-right: 0px; border-left: 0px;" class="checked-td"></td>
-      <td style="text-align: center;border-left: 0px;" class="checked-td"></td>
-    </tr>
-
-    <tr>
-      <td style="text-align: center" rowspan="2">
-        <a href="/products-and-docs/apis/publish/">
-          <img src="/assets/img/getting-started/ic-publish.svg" alt="Icon1">
-        </a>
-        <h4 style="margin-top:11px;text-">Publish API</h4>
-      </td>
-      <td style="text-align: left"><a href="/products-and-docs/apis/publish/#publish-events">Publish event</a></td>
       <td style="text-align: center;border-right: 0px;"></td>
       <td style="text-align: center;border-right: 0px; border-left: 0px;" class="checked-td"></td>
       <td style="text-align: center;border-right: 0px; border-left: 0px;" class="checked-td"></td>
